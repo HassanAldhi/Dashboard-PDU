@@ -61,33 +61,27 @@ var myChart2 = new Chart(ctx2, {
     data: {
         labels: waktu,
         datasets: [{
-            label: 'Var 1',
+            label: 'Mud Conduct. Out',
             data: dataVar2,
             borderColor: 'rgba(255, 99, 132, 1)',
             borderWidth: 1,
             fill: false
         }, {
-            label: 'Var 2',
+            label: 'Torque',
             data: dataVar3,
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
             fill: false
         }, {
-            label: 'Var 3',
+            label: 'RPM (total)',
             data: dataVar1,
             borderColor: 'rgba(255, 206, 86, 1)',
             borderWidth: 1,
             fill: false
         }, {
-            label: 'Var 4',
+            label: 'Hookload',
             data: dataVar5,
             borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1,
-            fill: false
-        }, {
-            label: 'Var 5',
-            data: dataVar4,
-            borderColor: 'rgba(153, 102, 255, 1)',
             borderWidth: 1,
             fill: false
         }]
