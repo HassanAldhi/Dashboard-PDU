@@ -68,6 +68,10 @@ input[type="text"]:focus,input[type="password"]:focus {
     border-radius: 8px;
 }
 
+.button-primary:hover{
+    background-color: #da5021;
+}
+
 .top-bar{
     width: 100%;
     padding: 0px 32px;
